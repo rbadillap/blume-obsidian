@@ -7,7 +7,9 @@
     ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "bun test",
     "typecheck": "tsc --noEmit"
@@ -22,7 +24,16 @@
     "blume": "^1.0.4",
     "typescript": "^5.7.0"
   },
-  "keywords": ["blume", "obsidian", "docs", "content-source"],
-  "repository": "rbadillap/blume-obsidian",
+  "keywords": [
+    "blume",
+    "obsidian",
+    "docs",
+    "content-source"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbadillap/blume-obsidian.git",
+    "directory": "packages/blume-obsidian"
+  },
   "license": "MIT"
 }
