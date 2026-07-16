@@ -6,6 +6,9 @@ import { obsidian } from "blume-obsidian";
 // package implements. Open ./vault in Obsidian to see the "before"; the
 // deployed site is the "after".
 export default defineConfig({
+  analytics: {
+    vercel: true,
+  },
   content: {
     sources: [{ source: obsidian({ vault: "vault" }), type: "custom" }],
   },
