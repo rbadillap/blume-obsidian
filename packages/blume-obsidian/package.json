@@ -1,0 +1,28 @@
+{
+  "name": "blume-obsidian",
+  "version": "0.1.0",
+  "description": "Obsidian vault content source for Blume — publish a vault as a docs site, no export step.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pathe": "^2.0.3"
+  },
+  "peerDependencies": {
+    "blume": "^1.0.0"
+  },
+  "devDependencies": {
+    "blume": "^1.0.4",
+    "typescript": "^5.7.0"
+  },
+  "keywords": ["blume", "obsidian", "docs", "content-source"],
+  "repository": "rbadillap/blume-obsidian",
+  "license": "MIT"
+}

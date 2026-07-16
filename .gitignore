@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.blume/
+.blume-verify/
+.turbo/
+.DS_Store
+.vercel/
+.netlify/
+
+# Obsidian per-user state; keep app.json so the vault opens cleanly.
+apps/docs/vault/.obsidian/*
+!apps/docs/vault/.obsidian/app.json
